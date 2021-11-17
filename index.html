@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap & SASS</title>
+    <link rel="stylesheet" href="./sass/custom.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <class class="row pb-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <col-6><img src="img\logo-bookmark.svg" alt="" width="auto" height="auto"
+                            class="d-inline-block align-text-top"></col-6>
+                    <col-6><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="#">FEATURES</a>
+                                <a class="nav-link" href="#">PRICING</a>
+                                <a class="nav-link" href="#">CONTACT</a>
+                                <button type="button" class="btn btn-danger">Login</button>
+                    </col-6>
+
+
+                </div>
+
+
+            </nav>
+        </class>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 order-md-2  mb-sm-5">
+                <div class="bgToPic">
+                    <img src="img\illustration-features-tab-1.svg" class="rounded float-start " alt="...">
+                </div>
+                <div class="roundedBackRight"></div>
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+                <div class="jumbotron text-dark">
+                    <h1 class="display-4">A simple bookmark manager</h1>
+                    <p class="lead">A clean and simple interface to organize your favorite websites.
+                        Open a new browser tab and see your sites load instantly. Try it for free.
+                    </p>
+                    <a class="btn btn-primary btn-lg shadow-sm" href="#" role="button">Get it on Chrome</a>
+                    <a class="btn btn-light btn-lg shadow-sm" href="#" role="button">Get it on Firefox</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row text-center">
+            <div class="col-5  m-auto">
+                <h2>Features</h2>
+                <br>
+                <p>Our aim is to make it quick and easy for you tu access your
+                    favourite websites. Your bookmarks sync between your devices
+                    so you can access them on the go.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5">
+
+            <!-- Tabs navs -->
+            <ul class="nav nav-tabs nav-fill mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1" role="tab"
+                        aria-controls="ex2-tabs-1" aria-selected="true">Simple Bookmarking</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2" role="tab"
+                        aria-controls="ex2-tabs-2" aria-selected="false">Speedy Searching</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex2-tab-3" data-mdb-toggle="tab" href="#ex2-tabs-3" role="tab"
+                        aria-controls="ex2-tabs-3" aria-selected="false">Easy Sharing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Tabs navs -->
+
+    <!-- Tabs content -->
+    <div class="tab-content" id="ex2-content">
+        <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex2-tab-1">
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6 order-md-1  mb-sm-5">
+                        <div class="secondImg">
+                            <img src="img\illustration-features-tab-1.svg" class="rounded float-start" alt="...">
+                        </div>
+                        <div class="roundedBackLeft"></div>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-2">
+                        <div class="jumbotron text-dark">
+                            <h1 class="display-4">Bookmark in one click</h1>
+                            <p class="lead">Organize your bookmarks however you like. Our
+                                simple drag-and-drop interface gices you complete
+                                control over how you manage your favourite sites.
+                            </p>
+                            <a class="btn btn-primary btn-lg shadow-sm" href="#" role="button">More Info</a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+            Tab 2 content
+        </div>
+        <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel" aria-labelledby="ex2-tab-3">
+            Tab 3 content
+        </div>
+    </div>
+    <!-- Tabs content -->
+
+    <div class="row text-center mb-5">
+        <div class="col-5  m-auto">
+            <h2>Download the extension</h2>
+            <br>
+            <p>
+                We´ve got more browsers in the pipeline. Please do let us know if
+                you´ve got a favourite you´d like us to prioritize
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <div class="card shadow border-0" style="width: 16rem;">
+                <img src="img\logo-chrome.svg" class="card-img-top-logo m-auto mt-5 mb-5" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Add to Chrome</h5>
+                    <p class="card-text text-muted">Minimun version 62</p>
+
+                    <div class="row pointedImg">
+                        <img src="img\bg-dots.svg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="#" class="btn btn-primary botonCard" style="width:14rem;">Add & Install extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 mt-4">
+            <div class="card shadow border-0" style="width: 16rem;">
+                <img src="img\logo-firefox.svg" class="card-img-top-logo m-auto mt-5 mb-5" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Add to Firefox</h5>
+                    <p class="card-text text-muted">Minimun version 55</p>
+
+                    <div class="row pointedImg">
+                        <img src="img\bg-dots.svg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="#" class="btn btn-primary botonCard" style="width:14rem;">Add & Install extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 mt-5">
+            <div class="card shadow border-0" style="width: 16rem;">
+                <img src="img\logo-opera.svg" class="card-img-top-logo m-auto mt-5 mb-5" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Add to Opera</h5>
+                    <p class="card-text text-muted">Minimun version 46</p>
+
+                    <div class="row pointedImg">
+                        <img src="img\bg-dots.svg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="row justify-content-center">
+                        <a href="#" class="btn btn-primary botonCard" style="width:14rem;">Add & Install extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

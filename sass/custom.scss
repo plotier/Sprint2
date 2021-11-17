@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primary:#5265E1;
+$secondary:#FA5959;
+
+.bgToPic {
+    background-color: #3a3a3a;
+    height: 386px;
+    width: 576px;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.roundedBackRight{
+    background-color: #5265E1;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+    margin-top: 124px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 40%;
+    margin-left: 145px;
+}
+
+.secondImg{
+    position: absolute;
+    z-index: 10;
+    margin-left: 100px;
+}
+.roundedBackLeft{
+    background-color: #5265E1;
+    height: 290px;
+    position: relative;
+    z-index: 1;
+    margin-top: 124px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 40%;
+    width: 579px;
+}
+
+.nav-tabs .nav-link{
+    color: black;
+    border:none;
+
+}
+.nav-tabs .nav-link.active{
+        border-bottom: 3px solid;
+        border-bottom-color: red;
+}
+.card-body{
+padding: 0px;
+}
+.card-img-top-logo{
+    width: 6rem;
+    height: 6rem;
+}
+.botonCard{
+    margin: 1rem;
+}
