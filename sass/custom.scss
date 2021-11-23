@@ -1,63 +1,143 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+    @import "../node_modules/bootstrap/scss/bootstrap";
 
-$primary:#5265E1;
-$secondary:#FA5959;
+    $primary:#5265E1;
+    $secondary:#FA5959;
 
-.bgToPic {
-    background-color: #3a3a3a;
-    height: 386px;
-    width: 576px;
-    padding: 20px;
-    border-radius: 20px;
-    position: absolute;
-    z-index: 10;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-    
-}
-.roundedBackRight{
-    background-color: #5265E1;
-    height: 400px;
-    width: 500px;
-    position: relative;
-    z-index: 1;
-    margin-top: 124px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 40%;
-    margin-left: 145px;
-}
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .btn{
+        font-size: medium;
+        font-weight: 500;
+    }
+    .firstButton:hover{
+        color: $primary;
+        background: white;
+    }
+    .secondButton:hover{
+        color:black;
+        border-color: black;
+        background: white;
+    }
+    .descriptionFont{
+        color: gray;
+    }
+    .titleFont{
+        font-weight: 700;
+    }
+    .bgToPic {
+        background-color: #3a3a3a;
+        // width: 576px;
+        padding: 20px;
+        border-radius: 20px;
+        // position: relative;
+        z-index: 10;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    .roundedBackRight{
+        background-color: #5265E1;
+        // height: 40%;
+        // width: 40%;
+        // position: absolute;
+        // z-index: 1;
+   border-top-left-radius: 111px;
+   border-bottom-left-radius: 410px;    
+   padding-bottom: 10rem;
+   height: 80%;
+        // bottom:0;
+        // right: 0;
+    }
 
-.secondImg{
-    position: absolute;
-    z-index: 10;
-    margin-left: 100px;
-}
-.roundedBackLeft{
-    background-color: #5265E1;
-    height: 290px;
-    position: relative;
-    z-index: 1;
-    margin-top: 124px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 40%;
-    width: 579px;
-}
+    .secondImg{
+        position: absolute;
+        z-index: 10;
+        margin-left: 100px;
+    }
+    .roundedBackLeft{
+        background-color: #5265E1;
+        height: 290px;
+        position: relative;
+        z-index: 1;
+        margin-top: 124px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 40%;
+        width: 579px;
+    }
 
-.nav-tabs .nav-link{
-    color: black;
-    border:none;
+    .nav-tabs .nav-link{
+        color: black;
+        border:none;
 
-}
-.nav-tabs .nav-link.active{
-        border-bottom: 3px solid;
-        border-bottom-color: red;
-}
-.card-body{
-padding: 0px;
-}
-.card-img-top-logo{
-    width: 6rem;
-    height: 6rem;
-}
-.botonCard{
-    margin: 1rem;
-}
+    }
+    .nav-tabs .nav-link:hover{
+        color: $secondary;
+    }
+    .nav-tabs .nav-link.active{
+            border-bottom: 3px solid;
+            border-bottom-color: red;
+    }
+    .nav-item{
+        width:250px;
+    }
+
+    .cartaCenter{
+        margin: auto;
+        width: 16rem;
+    }
+
+    .card-body{
+    padding: 0px;
+    }
+    .card-img-top-logo{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .cardPosition:nth-child(1){  
+        margin-top: 1rem;
+    }
+    .cardPosition:nth-child(2){
+        margin-top: 2.5rem;
+    }
+    .cardPosition:nth-child(3){
+        margin-top: 4rem;
+    }
+
+    .botonCard{
+        margin: 1rem;
+    }
+    .botonCard:hover{
+        color: $primary;
+        background: white;
+    }
+    .inputCustom{
+        display: inline;
+        width: 14rem;
+    }
+    .footerLink{
+        text-decoration:none;
+        color: white;
+        padding-left: 2rem;
+    }
+    .accordion-button:hover{
+        color: $secondary  ;
+    }
+
+
+    // //TABLET
+    // @media only screen and (max-width: 768px)
+    // {
+    //     .roundedBackRight{
+    //         height: 180px;
+    //     }
+    // }
+    // // Mobile
+
+    // @media only screen and (max-width: 500px)
+    // {
+    //     .roundedBackRight{
+    //         height: 120px;
+    //     }
+    // }

@@ -11957,13 +11957,39 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.btn {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.firstButton:hover {
+  color: #5265E1;
+  background: white;
+}
+
+.secondButton:hover {
+  color: black;
+  border-color: black;
+  background: white;
+}
+
+.descriptionFont {
+  color: gray;
+}
+
+.titleFont {
+  font-weight: 700;
+}
+
 .bgToPic {
   background-color: #3a3a3a;
-  height: 386px;
-  width: 576px;
   padding: 20px;
   border-radius: 20px;
-  position: absolute;
   z-index: 10;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
@@ -11971,14 +11997,10 @@ fieldset:disabled .btn {
 
 .roundedBackRight {
   background-color: #5265E1;
-  height: 400px;
-  width: 500px;
-  position: relative;
-  z-index: 1;
-  margin-top: 124px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 40%;
-  margin-left: 145px;
+  border-top-left-radius: 111px;
+  border-bottom-left-radius: 410px;
+  padding-bottom: 10rem;
+  height: 80%;
 }
 
 .secondImg {
@@ -12003,9 +12025,17 @@ fieldset:disabled .btn {
   border: none;
 }
 
+.nav-tabs .nav-link:hover {
+  color: #FA5959;
+}
+
 .nav-tabs .nav-link.active {
   border-bottom: 3px solid;
   border-bottom-color: red;
+}
+
+.nav-item {
+  width: 250px;
 }
 
 .card-body {
@@ -12017,7 +12047,39 @@ fieldset:disabled .btn {
   height: 6rem;
 }
 
+.cardPosition:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.cardPosition:nth-child(2) {
+  margin-top: 2.5rem;
+}
+
+.cardPosition:nth-child(3) {
+  margin-top: 4rem;
+}
+
 .botonCard {
   margin: 1rem;
+}
+
+.botonCard:hover {
+  color: #5265E1;
+  background: white;
+}
+
+.inputCustom {
+  display: inline;
+  width: 14rem;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: white;
+  padding-left: 2rem;
+}
+
+.accordion-button:hover {
+  color: #FA5959;
 }
 /*# sourceMappingURL=custom.css.map */
