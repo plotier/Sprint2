@@ -7,6 +7,18 @@
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
     }
+
+    .navbar-nav .nav-link{
+        margin-left: 2rem;
+    }
+    .navbar-nav .btn{
+        margin-left: 2rem;
+        width: 7rem;
+    }
+    #navbarNavAltMarkup{
+        margin-left: 8rem;
+    }
+
     .btn{
         font-size: medium;
         font-weight: 500;
@@ -51,19 +63,17 @@
     }
 
     .secondImg{
-        position: absolute;
         z-index: 10;
         margin-left: 100px;
     }
     .roundedBackLeft{
         background-color: #5265E1;
         height: 290px;
-        position: relative;
         z-index: 1;
         margin-top: 124px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 40%;
-        width: 579px;
+        width: 450px;
     }
 
     .nav-tabs .nav-link{
@@ -124,20 +134,37 @@
     .accordion-button:hover{
         color: $secondary  ;
     }
+    .footerBg{
+        background: #242946;
+    }
+    .lead{
+        margin-right: 2rem;
+    }
+    .accordion-item{
+        border-right: none;
+        border-left: none;
+    }
 
 
-    // //TABLET
-    // @media only screen and (max-width: 768px)
-    // {
-    //     .roundedBackRight{
-    //         height: 180px;
-    //     }
-    // }
-    // // Mobile
 
-    // @media only screen and (max-width: 500px)
-    // {
-    //     .roundedBackRight{
-    //         height: 120px;
-    //     }
-    // }
+    // // //TABLET
+     @media only screen and (max-width: 768px)
+     {
+         .roundedBackLeft{
+            height: 266px;
+            margin-top: 199px;
+            width: 522px;
+         }
+     }
+
+     
+     // Mobile
+
+     @media only screen and (max-width: 500px)
+     {
+         .roundedBackLeft{
+             height: 120px;
+             margin-top: 84px;
+             width: 230px;
+         }
+     }
